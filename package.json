@@ -1,0 +1,29 @@
+{
+    "name": "pig-latin-translator",
+    "version": "1.0.0",
+    "description": "pig latin coding test implemented as a cucumber bdd test",
+    "main": "src/main.ts",
+    "repository": {
+        "url": "https://github.com/mutsys/for-michael-and-phil.git"
+    },
+    "scripts": {
+        "test":
+            "NODE_ENV=development cucumberjs --format json:test-results.json --compiler ts:ts-node/register --require node_modules/tsconfig-paths/register.js --require test/steps test/features",
+        "posttest": "ts-node -r tsconfig-paths/register test/generate-test-report.ts"
+    },
+    "author": "Mike Rose",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/chai": "^4.0.10",
+        "@types/cucumber": "^2.1.0",
+        "chai": "^4.1.2",
+        "cucumber": "^3.2.0",
+        "cucumber-html-reporter": "^3.0.4",
+        "tslint": "^5.8.0"
+    },
+    "dependencies": {
+        "ts-node": "^4.0.1",
+        "tsconfig-paths": "^2.6.0",
+        "typescript": "^2.6.2"
+    }
+}

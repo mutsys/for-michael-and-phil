@@ -1,0 +1,294 @@
+[
+  {
+    "description": "In order to translate english to pig latin\nAs a user\nI want a function that accepts an english language phrase as input and returns the equivalent phrase in pig latin",
+    "keyword": "Feature",
+    "name": "Translate English to Pig Latin",
+    "line": 1,
+    "id": "translate-english-to-pig-latin",
+    "tags": [],
+    "uri": "test/features/pig-latin.feature",
+    "elements": [
+      {
+        "id": "translate-english-to-pig-latin;",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an english phrase hello",
+            "match": {
+              "location": "test/steps/pig-latin.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I translate it to pig latin",
+            "match": {
+              "location": "test/steps/pig-latin.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the equivalent pig latin phrase should be ellohay",
+            "match": {
+              "location": "test/steps/pig-latin.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "translate-english-to-pig-latin;",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an english phrase hello world",
+            "match": {
+              "location": "test/steps/pig-latin.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I translate it to pig latin",
+            "match": {
+              "location": "test/steps/pig-latin.ts:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the equivalent pig latin phrase should be ellohay orldway",
+            "match": {
+              "location": "test/steps/pig-latin.ts:31"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "translate-english-to-pig-latin;",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an english phrase Hello world",
+            "match": {
+              "location": "test/steps/pig-latin.ts:23"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I translate it to pig latin",
+            "match": {
+              "location": "test/steps/pig-latin.ts:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the equivalent pig latin phrase should be Ellohay orldway",
+            "match": {
+              "location": "test/steps/pig-latin.ts:31"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "translate-english-to-pig-latin;",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an english phrase Hello, world!!",
+            "match": {
+              "location": "test/steps/pig-latin.ts:23"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I translate it to pig latin",
+            "match": {
+              "location": "test/steps/pig-latin.ts:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the equivalent pig latin phrase should be Ellohay, orldway!!",
+            "match": {
+              "location": "test/steps/pig-latin.ts:31"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "translate-english-to-pig-latin;",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an english phrase eat apples",
+            "match": {
+              "location": "test/steps/pig-latin.ts:23"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I translate it to pig latin",
+            "match": {
+              "location": "test/steps/pig-latin.ts:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the equivalent pig latin phrase should be eatay applesay",
+            "match": {
+              "location": "test/steps/pig-latin.ts:31"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "translate-english-to-pig-latin;",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an english phrase quick brown fox",
+            "match": {
+              "location": "test/steps/pig-latin.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I translate it to pig latin",
+            "match": {
+              "location": "test/steps/pig-latin.ts:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the equivalent pig latin phrase should be ickquay ownbray oxfay",
+            "match": {
+              "location": "test/steps/pig-latin.ts:31"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
